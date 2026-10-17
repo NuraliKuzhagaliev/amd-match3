@@ -1,0 +1,23 @@
+{
+  "total_final_questions": 287,
+  "total_final_passed": 287,
+  "linux_tests_passed": 47,
+  "frozen_app_sha256": {
+    "app.py": "dc772002105b1b02a17b40cbcf13c45887fc1dba93ffc251729d70b7d081e126",
+    "mc3/__init__.py": "edcd6eb66e5aa333acac60693aa3ec488ad959667aeb08f850135351d40797aa",
+    "mc3/backend.py": "51b2cfebdceff827642bc97f9cf01f980ddde86ae0a33e76098a9390f20c7305",
+    "mc3/config.py": "41dcc84258153277a45c191e4a9b09f962dbe30a19d4370db637bb4a4c5b15a1",
+    "mc3/evidence.py": "9ce86a06b6a49721c23baf06abdd65263be556ef875e07cbe55b71de1552f2cf",
+    "mc3/io.py": "6b03029bd2c2529a9b6501225bcd690f3b79e318450eed65026dfd107c80b858",
+    "mc3/parse_one.py": "48202c5eeba1f5ec725f3edd388f8f1980e94980374bbdf21576cc49b2bf2a1c",
+    "mc3/pipeline.py": "0f35dad04326eb4498c4212834d7d4ddde82da56f52f78b61a5ce92c5b6dfaba",
+    "mc3/retrieval.py": "9e0741799e1491dac97e617bc840872d9906280d4229f5fd48cac1c1412bcb63",
+    "mc3/worker.py": "cc5561d850a4e5cbecf4a9efba159c39eaaa7b28dd5490dad52cced94a317928"
+  },
+  "uncompressed_gib": 46.68219757080078,
+  "container_gpu_launch_verified": false,
+  "scope": "Direct AMD GPU model runs. Transfer fixtures were used to fix unit formatting, so their final result is development evidence, not a blind held-out score. No official hidden evaluation or full Docker GPU launch has been performed.",
+  "memory_measurement_scope": "Kernel monitor sees all GPUs on the shared host. The 27.46 GiB maximum includes a neighbouring GPU already occupied at the first sample; do not attribute that number exclusively to our worker. Report PyTorch peak reserved separately. Assigned PCI-to-torch-device identity was not recorded.",
+  "peak_worker_torch_reserved_gib": 19.873046875,
+  "official_hidden_score": null
+}

@@ -1,0 +1,12 @@
+**/__pycache__
+**/*.pyc
+.git
+.env*
+work
+tests
+reports
+models
+sample
+*.zip
+*.tar
+README*

@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env*
+models/
+reports/
+work/
+*.tar
+*.zip

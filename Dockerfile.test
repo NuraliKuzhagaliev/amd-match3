@@ -1,0 +1,7 @@
+FROM python:3.13-slim-bookworm
+WORKDIR /src
+RUN pip install --no-cache-dir pypdf==6.6.2 python-docx==1.2.0 openpyxl==3.1.5 pypdfium2==5.3.0 numpy pillow
+COPY app/ app/
+COPY tests/ tests/
+COPY scripts/build_without_docker.py scripts/update_archive.py scripts/
+CMD ["python3", "-m", "unittest", "discover", "-s", "tests", "-v"]

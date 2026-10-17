@@ -1,0 +1,7 @@
+*
+!app/
+!app/**
+!tests/
+!tests/**
+!scripts/
+!scripts/build_without_docker.py
