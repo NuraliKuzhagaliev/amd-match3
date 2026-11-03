@@ -1,5 +1,7 @@
 # AMD AI League: Match 3
 
+This repository contains the Match 3 RAG source for our shared lablab.ai entry. [Match 2 VisionForge OCR source](https://github.com/NuraliKuzhagaliev/match-2) is maintained separately. The two Docker image references are provided only in the organizer's private submission fields.
+
 Offline RAG implementation for the supplied competition contract. It reads PDF,
 Word tables, all Excel sheets, CSV, text/log/Python source, and images. It returns
 short values with file citations, or an explicit empty response when evidence is
